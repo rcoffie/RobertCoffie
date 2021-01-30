@@ -1,459 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Robert Coffie</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top">Robert Coffie</a>
-                <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a></li>
-                    </ul>
-                </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/css/tailwind.min.css" />
+    <link rel="shortcut icon" href="linked-min.ico" />
+    <title>Robert Coffie</title>
+	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Roboto Mono", monospace;
+      }
+    </style>
+  </head>
+  <body class="">
+    <div class="mt-6 max-w-screen-lg md:flex mx-auto">
+      <div class="md:w-1/3 p-2 relative">
+        <div class="md:fixed">
+          <div class="md:block">
+            <img
+              class="h-32 w-32 rounded-full mx-auto mx-4"
+             
+			   src="linked-min.ico" alt="" 
+            />
+            <div class="mb-12 text-center mt-4 justify-center items-center">
+              <h1 class="text-2xl text-xl text-gray-800 font-bold">
+                Robert Coffie
+              </h1>
+              <div class="md:text-lg text-gray-600">Back-end Developer </div>
+              <div class="text-gray-600 md:hidden mt-1">
+                (rcoffie22@gmail.com)
+              </div>
             </div>
-        </nav>
-        <!-- Masthead-->
-        <header class="masthead bg-primary text-white text-center">
-            <div class="container d-flex align-items-center flex-column">
-                <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="assets/img/linked-min.jpg" alt="" />
-                <!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase mb-0">Robert Coffie</h1>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0"> Back-end Developer </p>
+          </div>
+          <div class="mx-4 my-4 hidden md:block">
+            <div class="my-5 text-lg text-gray-600 flex">
+              <div class="mr-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M20,4H6C4.897,4,4,4.897,4,6v5h2V8l6.4,4.8c0.178,0.133,0.389,0.2,0.6,0.2s0.422-0.067,0.6-0.2L20,8v9h-8v2h8 c1.103,0,2-0.897,2-2V6C22,4.897,21.103,4,20,4z M13,10.75L6.666,6h12.668L13,10.75z"
+                  />
+                  <path d="M2 12H9V14H2zM4 15H10V17H4zM7 18H11V20H7z" />
+                </svg>
+              </div>
+              rcoffie22@gmail
             </div>
-        </header>
-        <!-- Portfolio Section-->
-        <section class="page-section portfolio" id="portfolio">
-            <div class="container">
-                <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Grid Items-->
-                <div class="row justify-content-center">
-                    <!-- Portfolio Item 1-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="" />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 2-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="" />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 3-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="" />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 4-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/game.png" alt="" />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 5-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/safe.png" alt="" />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 6-->
-                    <div class="col-md-6 col-lg-4">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/submarine.png" alt="" />
-                        </div>
-                    </div>
-                </div>
+            <div class="my-5 text-lg text-gray-600 flex">
+              <div class="mr-2">
+                <svg
+                  class="text-gray-600"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12,14c2.206,0,4-1.794,4-4s-1.794-4-4-4s-4,1.794-4,4S9.794,14,12,14z M12,8c1.103,0,2,0.897,2,2s-0.897,2-2,2 s-2-0.897-2-2S10.897,8,12,8z"
+                  />
+                  <path
+                    d="M11.42,21.814C11.594,21.938,11.797,22,12,22s0.406-0.062,0.58-0.186C12.884,21.599,20.029,16.44,20,10 c0-4.411-3.589-8-8-8S4,5.589,4,9.995C3.971,16.44,11.116,21.599,11.42,21.814z M12,4c3.309,0,6,2.691,6,6.005 c0.021,4.438-4.388,8.423-6,9.73C10.389,18.427,5.979,14.441,6,10C6,6.691,8.691,4,12,4z"
+                  />
+                </svg>
+              </div>
+              Kumasi, Ghana
             </div>
-        </section>
-        <!-- About Section-->
-        <section class="page-section bg-primary text-white mb-0" id="about">
-            <div class="container">
-                <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- About Section Content-->
-                <div class="row">
-                    <div class="col-lg-4 ml-auto"><p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
-                    <div class="col-lg-4 mr-auto"><p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
-                </div>
-                <!-- About Section Button-->
-             <!--    <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
-                        <i class="fas fa-download mr-2"></i>
-                        Free Download!
-                    </a>
-                </div> -->
-            </div>
-        </section>
-        <!-- Contact Section-->
-        <section class="page-section" id="contact">
-            <div class="container">
-                <!-- Contact Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Contact Section Form-->
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.-->
-                        <form id="contactForm" name="sentMessage" novalidate="novalidate">
-                            <div class="control-group">
-                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Name</label>
-                                    <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name." />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="control-group">
-                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Email Address</label>
-                                    <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address." />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="control-group">
-                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Phone Number</label>
-                                    <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number." />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="control-group">
-                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Message</label>
-                                    <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <br />
-                            <div id="success"></div>
-                            <div class="form-group"><button class="btn btn-primary btn-xl" id="sendMessageButton" type="submit">Send</button></div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Footer-->
-        <footer class="footer text-center">
-            <div class="container">
-                <div class="row">
-                    <!-- Footer Location-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-					
-                      <!--   <h4 class="text-uppercase mb-4">Location</h4>
-                        <p class="lead mb-0">
-                            2215 John Daniel Drive
-                            <br />
-                            Clark, MO 65243
-                        </p> -->
-                    </div>
-                    <!-- Footer Social Icons-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Around the Web</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
-                    </div>
-                    <!-- Footer About Text-->
-                    <div class="col-lg-4">
-                       <!--  <h4 class="text-uppercase mb-4">About Freelancer</h4>
-                        <p class="lead mb-0">
-                            Freelance is a free to use, MIT licensed Bootstrap theme created by
-                            <a href="http://startbootstrap.com">Start Bootstrap</a>
-                            .
-                        </p> -->
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- Copyright Section-->
-        <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright © Your Website <?php echo date("Y"); ?> </small></div>
+            <a
+              href="https://www.linkedin.com/in/mohamad-usman-922865196/"
+              class="my-5 text-blue-500 text-lg text-gray-600 flex"
+            >
+              <div class="mr-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h16c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z M8.339,18.337H5.667	v-8.59h2.672V18.337z M7.003,8.574c-0.856,0-1.548-0.694-1.548-1.548s0.691-1.548,1.548-1.548c0.854,0,1.548,0.693,1.548,1.548	S7.857,8.574,7.003,8.574z M18.338,18.337h-2.669V14.16c0-0.996-0.018-2.277-1.388-2.277c-1.39,0-1.601,1.086-1.601,2.207v4.248	h-2.667v-8.59h2.56v1.174h0.037c0.355-0.675,1.227-1.387,2.524-1.387c2.704,0,3.203,1.778,3.203,4.092V18.337z"
+                  />
+                </svg>
+              </div>
+              LinkedIn
+            </a>
+          </div>
+          <!-- <div class="mx-4 hidden md:block"> -->
+            <!-- <a -->
+              <!-- href="rcoff22@gmail.com" -->
+              <!-- class="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue active:bg-blue-700 transition duration-150 ease-in-out w-full py-2 text-white rounded text-base" -->
+            <!-- > -->
+              <!-- Hire me -->
+            <!-- </a> -->
+          <!-- </div> -->
         </div>
-        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
-        <div class="scroll-to-top d-lg-none position-fixed">
-            <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a>
+      </div>
+      <div class="md:w-2/3 p-2 w-full">
+        <div class="mx-4 mb-6">
+          <h1 class="mb-4 text-4xl text-gray-700 font-bold">Summary</h1>
+          <p class="text-lg">
+            Highly motivated, self-Taught developer seeking to launch a career in building
+            web applications and services, looking for an opportunity to help me learn, grow
+            and have a real life experience in web development.
+
+          </p>
         </div>
-        <!-- Portfolio Modals-->
-        <!-- Portfolio Modal 1-->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">Log Cabin</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="" />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      
+        <div class="mx-4">
+          <h1 class="mb-4 text-4xl text-gray-700 font-bold">Skill</h1>
+          <ul>
+            <li class="mb-6 flex flex-wrap">
+              <span
+                class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200"
+                >Flask</span
+              >
+              <span
+                class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200"
+                >Python Django</span
+              >
+           
+            
+              
+              <span
+                class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200"
+                >Python</span
+              >
+           
+              <span
+                class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200"
+                >PostgreSQL</span
+              >
+          
+              <span
+                class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200"
+                >Tailwind css/Bootstrap</span
+              >
+              <span
+           
+            </li>
+          </ul>
         </div>
-        <!-- Portfolio Modal 2-->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal2Label">Tasty Cake</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="" />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 3-->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal3Label">Circus Tent</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png" alt="" />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 4-->
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal4Label">Controller</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="" />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 5-->
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="portfolioModal5Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal5Label">Locked Safe</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="" />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 6-->
-        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-labelledby="portfolioModal6Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal6Label">Submarine</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="" />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Third party plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <!-- Contact form JS-->
-        <script src="assets/mail/jqBootstrapValidation.js"></script>
-        <script src="assets/mail/contact_me.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+      </div>
+    </div>
+  </body>
 </html>
