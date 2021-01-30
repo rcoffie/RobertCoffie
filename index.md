@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+# <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -146,7 +146,7 @@
                 class="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium bg-gray-200"
                 >Tailwind css/Bootstrap</span
               >
-              <span
+              
            
             </li>
           </ul>
